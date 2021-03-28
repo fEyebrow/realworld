@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start"
+    "start": "nuxt start",
+    "pm2": "pm2 reload pm2.config.json"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "dayjs": "^1.8.28",
     "js-cookie": "^2.2.1",
     "markdown-it": "^11.0.0",
-    "nuxt": "^2.12.2"
+    "nuxt": "^2.12.2",
+    "pm2": "^4.5.5"
   }
 }
