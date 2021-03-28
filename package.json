@@ -7,7 +7,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "pm2": "pm2 reload pm2.config.json"
+    "pm2": "pm2 reload pm2.config.json",
+    "pm2:stop": "pm2 stop RealWorld"
   },
   "keywords": [],
   "author": "",
